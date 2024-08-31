@@ -1,0 +1,76 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.logoutButtonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-logo-vertical {
+  color: #fff;
+  /* color: black; */
+  text-align: center;
+}
+
+.darkModeDiv {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* align-self: flex-end; */
+  margin-bottom: 2rem;
+}
+
+.ant-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+}
+.ant-menu {
+  flex: 1;
+}
+
+/*Light Mode*/
+.SiderLight .ant-layout-sider {
+  background-color: #fff;
+  /* color: black; */
+}
+
+.SiderLight .demo-logo-vertical {
+  /* color:#fff; */
+  text-align: center;
+  background-color: #fff;
+  color: black;
+}
+
+/*Dark Mode*/
+
+.SiderDark .ant-layout-sider {
+  background-color: #1b4f72;
+  color: white;
+}
+.SiderDark .demo-logo-vertical {
+  color: #fff;
+  text-align: center;
+  background-color: #1b4f72;
+}
+.SiderDark .ant-menu {
+  background-color: #1b4f72;
+  color: white;
+}
+.SiderDark .ant-menu-item {
+  background-color: #1b4f72;
+  color: white;
+}
+
+.SiderDark .ant-menu-item-selected {
+  /* background-color: #1B4F72; */
+  /* color: white; */
+  background-color: #008cd2;
+}
+.SiderDark .ant-menu-submenu-title {
+  /* background-color: #1B4F72; */
+  color: white;
+  /* background-color:#008CD2 ; */
+}

@@ -1,0 +1,44 @@
+.filterRow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.downloadAndClearContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.salesManagerContainer{
+    margin-top: 0.5rem;
+   
+    
+}
+.actionFormRow{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    margin:1rem 0;
+}
+.actionFormSubmitButton{
+    text-align: center;
+}
+
+.text_style {
+    font-size: 0.5rem; 
+  }
+  .ant-table-container{
+    font-size: 0.8rem;
+    /* line-height: 1; */
+  }
+  td.ant-table-cell{
+    margin: 0;
+    padding: 0;
+  }
+  .ant-table-row{
+   
+  }
+  .ant-table-tbody > tr > td {
+    padding: 0;
+}
+  

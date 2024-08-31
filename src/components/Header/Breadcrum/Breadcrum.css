@@ -1,0 +1,27 @@
+.breadContainer{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+/* padding: 1rem; */
+align-items: center;
+flex:1
+}
+.breadTextData{
+    display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+font-weight: bold;
+
+align-items: center;
+}
+.logoBreadcrum>img{
+    /* font-size: 2rem;
+    color: #008CD2; */
+    max-width: 200px;
+    max-height: 50px;
+}
+.dynamicText{
+    color: #56B146;
+    font-size: 1.5rem;
+    
+}

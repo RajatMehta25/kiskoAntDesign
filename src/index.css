@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MyriadPro-Light';
+  src: local('MyriadPro-Light'), url(./fonts/MyriadPro/MyriadPro-Light.otf) format('truetype');
+}
+
+/* ./fonts/MyriadPro/MyriadPro-Light.ttf */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'MyriadPro-Light'; 
+}
