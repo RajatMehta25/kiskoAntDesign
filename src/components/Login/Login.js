@@ -92,7 +92,7 @@ const Login = () => {
     <div className="container">
       <div className="leftContainer">
         <div className="logoDiv">
-          <div className="loginLogoSysco">KISCO</div> <div className="loginLogoRedX">{`| Deeside`} </div>
+          <div className="loginLogoSysco">KISCO</div> <div className="loginLogoRedX">{`| Keeside`} </div>
         </div>
         <div className="text">ABC Tracker Report</div>
         {/* <div className='ssoButton'><button className='ssoBtn'>SSO Login</button></div> */}
