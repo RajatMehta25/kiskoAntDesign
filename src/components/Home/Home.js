@@ -92,7 +92,7 @@ const Home = () => {
             </Flex> */}
       {/* <Breadcrum/> */}
       {/* <Divider style={{margin:"0.5rem"}} /> */}
-      <Flex wrap justify="space-between" gap={5} align="center" style={{ height: "100%" }}>
+      <Flex wrap justify="space-around" gap={5} align="center" style={{ height: "100%" }}>
         {finalCards.length > 0 ? finalCards.map((ele) => ele.card) : <div>{`Welcome , ${user.name}`}</div>}
         {/* <Card
       hoverable
