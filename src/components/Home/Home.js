@@ -39,7 +39,7 @@ const Home = () => {
           }}
         >
           <p style={{ fontSize: "2rem" }}>RedX</p>
-          <p>Data Management With Red X - for streamlined management and actionable analytics</p>
+          <p>Data Management With Zed X - for streamlined management and actionable analytics</p>
         </Card>
       ),
     },
