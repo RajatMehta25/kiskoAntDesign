@@ -17,8 +17,8 @@ const Admin = () => {
   };
 
   const userListData = [
-    { id: 1, user: "john@kysco.com", use_case: ["Zedx"], modules_screens: ["redx_sales_report"] },
-    { id: 2, user: "bill@kysco.com", use_case: ["Admin"], modules_screens: ["redx_sales_report", "redx_daily_issue_report"] },
+    { id: 1, user: "john@kysco.com", use_case: ["Zedx"], modules_screens: ["zedx_sales_report"] },
+    { id: 2, user: "bill@kysco.com", use_case: ["Admin"], modules_screens: ["zedx_sales_report", "zedx_daily_issue_report"] },
   ];
 
   const Columns = [
